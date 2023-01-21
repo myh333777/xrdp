@@ -1,4 +1,4 @@
-FROM aank999/xrdp-okteto-cloud:latest
+FROM rocker/rstudio:latest
 LABEL maintainer="Aank is ME <https://aank.me/Youtube>"
-EXPOSE 80
+EXPOSE 8787
 ENTRYPOINT ["/startup.sh"]
